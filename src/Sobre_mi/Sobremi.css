@@ -1,0 +1,143 @@
+/*para separar el div de perfil del margen izquierdo de la página*/
+.presentacion {
+    margin-left: 100px; /* Ajusta este valor según el espacio que desees */
+    margin-right: 20px; /* Esto también ayuda a crear margen en la derecha si es necesario */
+}
+
+.imagenperfil {
+    margin-top: 20px;
+}
+/*............................................................*/
+
+.titulo{ /*Para centrar el título*/
+    display: grid;
+    place-items: center;    
+}
+
+.titulo1{
+    text-decoration: none; /*para quitar el subrayado del texto*/
+    color: black; /*para darle color al texto*/
+}
+
+.imagenperfil{
+    width: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;   /* oculta lo que sobresale */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white; /* opcional: un borde bonito */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra suave */
+    margin-bottom: 10px; /* o menos para separar la rueda del perfil de los iconos de redes en la parte de abajo*/
+}
+
+.contenedor{ 
+    display: flex; /*para colocar los div horizontalmente*/
+    flex-wrap: wrap; /*es en caso de que se anexen mas div, los div no se salgan de la pantalla sino que coloquen abajo*/
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px; /* o usa margin-right en el primer hijo esto para separar los div horizontalmente */
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 8px; /*valor de espacio entre iconos de redes*/
+}
+
+.movil{
+    display: flex;
+    align-items: center;
+    gap: 8px; /*valor según el espacio entre el icono, el texto, el cuadro y el icono de número celular*/
+}
+
+.correo{
+    display: flex;
+    align-items: center;
+    gap: 8px; /*valor según el espacio entre el icono, el texto, el cuadro y el icono del correo*/
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* agrega separación vertical */
+}
+
+.boton-cv {/*para reducir el ancho del botón descargar cv*/    
+    width: 100px;      /* ancho */
+    /*height: 50px;      /* alto */
+    /*font-size: 16px;   /* tamaño del texto */
+    /*padding: 10px 20px; /* espacio interno */
+    background-color: #36d51d; /* verde */
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.boton-cv:hover {
+    background-color: #4ae6f1; /* azul más oscuro */
+}
+
+/*estas dos funciones son para juntar el nombre y el texto que están verticalmente muy separados*/
+.nombre-perfil {
+    margin-bottom: 4px; /* o menos */
+}
+  
+.texto-perfil {
+    margin-top: 0;
+}
+/*...........................*/
+
+.menu-opciones-correo {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 30%; /* o right: -150px dependiendo de tu diseño para correr el cuadro flotante */
+    z-index: 100;
+}
+
+.menu-opciones-correo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-opciones-correo li {
+    margin-bottom: 5px;
+}
+
+.menu-opciones-correo a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.menu-opciones-correo a:hover {
+    text-decoration: underline;
+}
+
+.sobre-mi {
+    text-align: center;  /* Centra el contenido */
+    margin-top: 50px;    /* Espacio superior */
+}
+
+.titulo-sobre-mi {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Color para el título */
+}
+
+.descripcion-sobre-mi {
+    font-size: 16px;
+    color: #555; /* Color para la descripción */    
+    /*margin-top: 10px;*/ /*max-width: 600px;*/
+    margin: 0 auto;
+    line-height: 1.6;
+}
+

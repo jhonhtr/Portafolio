@@ -1,0 +1,74 @@
+.lista-portafolio{ 
+    display: flex; /*para colocar los div horizontalmente*/
+    flex-wrap: wrap; /*es en caso de que se anexen mas div, los div no se salgan de la pantalla sino que coloquen abajo*/
+    /*flex-direction: row;*/
+    justify-content: center; /* Centrarlos horizontalmente */
+    align-items: flex-start;
+    gap: 60px; /* o usa margin-right en el primer hijo esto para separar los div horizontalmente */
+    padding: 20px; /* Espacio interno para que no estén pegados a los bordes */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+.portafolio1, .portafolio2, .portafolio3 { /*para darle un borde sombreado al div*/
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    cursor: pointer; /* Mostrar la manito del mouse */
+  }
+
+/* Cuando pasas el mouse encima */
+.portafolio1:hover, .portafolio2:hover, .portafolio3:hover {
+    transform: scale(1.05); /* Hace que la tarjeta crezca un poco */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Sombra más intensa */
+}
+
+.portafolio {
+    text-align: center;  /* Centra el contenido */
+    margin-top: 50px;    /* Espacio superior */
+}
+
+.titulo-portafolio{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Color para el título */
+}
+
+/*estas dos funciones son para juntar el titulo y las descripciones*/
+.titulos {
+    margin-bottom: 1px; /* valor 3px o menos para juntarlos más*/
+}
+  
+.descripciones {
+    margin-top: 0;
+}
+/*...........................*/
+
+/*estas dos funciones son para juntar la imagen y el titulo*/
+.imagenes {
+    margin-bottom: 1px; /* valor 3px o menos para juntarlos más*/
+}
+  
+.titulos {
+    margin-top: 0;
+}
+/*...........................*/
+
+/*quitar el subrayado de las descripciones de cada div*/
+
+.lista-portafolio a {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit;         /* Mantiene el color original */
+    display: inline-block;  /* O block, según tu necesidad */
+}
+
+.iconos-portafolio{
+    display: flex; /* Para ponerlos en línea */
+    justify-content: center; /* <-- Esto centra horizontalmente */
+    gap: 15px; /* Espacio entre las imágenes */
+    align-items: center; /* Centra los iconos verticalmente */
+}

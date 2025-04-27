@@ -1,0 +1,50 @@
+.educacion {
+    text-align: center;  /* Centra el contenido */
+    margin-top: 50px;    /* Espacio superior */
+}
+
+.titulo-educacion {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Color para el título */
+}
+
+.lista-educacion {
+    list-style: none;/*le quito los punticos al menu*/
+    padding-left: 0; /* también elimina la sangría predeterminada */
+    font-size: 16px;
+    color: #555; /* Color para la descripción */    
+    /*margin-top: 10px;*/ /*max-width: 600px;*/
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Para botón */
+.boton-certificado {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 4px 8px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-certificado:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Para enlace simple */
+  .enlace-certificado {
+    margin-left: 10px;
+    color: #3498db;
+    text-decoration: underline;
+    font-size: 0.8rem;
+  }
+  
+  .enlace-certificado:hover {
+    color: #1d6fa5;
+  }

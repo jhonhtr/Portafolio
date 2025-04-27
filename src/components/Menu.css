@@ -1,0 +1,29 @@
+.menu3 {
+    list-style: none;/*le quito los punticos al menu*/
+    padding-left: 0; /* también elimina la sangría predeterminada */
+}
+
+.menu3 a {
+    text-decoration: none;
+    color: inherit; /* para mantener el color del texto normal */
+    transition: color 0.3s ease; /* animación suave */
+}
+
+.menu3 a:hover {
+    color: #8f9b20;
+}
+
+.menu3 p {
+    margin: 0;
+    padding: 1px 0; /*valor 1px para juntar verticalmente las palabras del menú*/
+}
+
+/*estas dos funciones son para juntar el titulo menú y las palabras*/
+.menu2 {
+    margin-bottom: 3px; /* valor 3px o menos para juntarlos más*/
+}
+  
+.menu3 {
+    margin-top: 0;
+}
+/*...........................*/

@@ -99,7 +99,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     position: absolute;
-    left: 30%; /* o right: -150px dependiendo de tu diseño para correr el cuadro flotante */
+    left: 45%; /* o right: -150px dependiendo de tu diseño para correr el cuadro flotante */
     z-index: 100;
 }
 

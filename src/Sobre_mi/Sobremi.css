@@ -1,7 +1,7 @@
 /*para separar el div de perfil del margen izquierdo de la página*/
 .presentacion {
     /*margin-left: 100px;*/ /* Ajusta este valor según el espacio que desees */
-    margin-right: 20px; /* Esto también ayuda a crear margen en la derecha si es necesario */
+    margin-right: 5px; /* Esto también ayuda a crear margen en la derecha si es necesario */
 }
 
 .imagenperfil {

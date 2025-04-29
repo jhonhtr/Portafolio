@@ -1,6 +1,6 @@
 /*para separar el div de perfil del margen izquierdo de la página*/
 .presentacion {
-    margin-left: 100px; /* Ajusta este valor según el espacio que desees */
+    /*margin-left: 100px;*/ /* Ajusta este valor según el espacio que desees */
     margin-right: 20px; /* Esto también ayuda a crear margen en la derecha si es necesario */
 }
 
@@ -34,6 +34,7 @@
 
 .contenedor{ 
     display: flex; /*para colocar los div horizontalmente*/
+    justify-content: center; /* Centra horizontalmente */
     flex-wrap: wrap; /*es en caso de que se anexen mas div, los div no se salgan de la pantalla sino que coloquen abajo*/
     flex-direction: row;
     align-items: flex-start;
